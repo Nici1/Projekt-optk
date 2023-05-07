@@ -1,0 +1,35 @@
+digraph {
+    
+
+ 
+    
+
+node [shape = circle, width = 1, fixedsize = true];
+
+
+Z -> Z [label = "0.48"];
+Z -> ZZ [label = "0.19"];
+Z -> NZ [label = "0.14"];
+Z -> OD [label = "0.19"];
+
+ZZ -> Z [label = "0.20"];
+ZZ -> ZZ [label = "0.75"];
+ZZ -> NZ [label = "0.05"];
+//ZZ -> OD [label = "0"];
+
+NZ -> Z [label = "0.22"];
+NZ -> ZZ [label = "0.11"];
+NZ -> NZ [label = "0.67"];
+//NZ -> OD [label = "0"];
+
+OD -> Z [label = "0.08"];
+OD -> ZZ [label = "0.08"];
+OD -> NZ [label = "0.17"];
+OD -> OD [label = "0.67"];
+
+
+
+
+
+    
+}
